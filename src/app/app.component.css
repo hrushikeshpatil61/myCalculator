@@ -1,0 +1,113 @@
+.mycalc{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 6px;
+    background-color: rgb(37, 231, 15);
+}
+
+.all-btn{
+    display: flex;
+}
+.all-btn-numbers{
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+}
+.all-btn-signs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.all-btn-numbers button {
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: rgb(255, 45, 45);
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.all-btn-signs button {
+    background-color: rgb(216, 22, 103);
+    border: none;
+    margin: 10px;
+    color: rgb(255, 45, 45);
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.all-btn-signs button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255, 252, 55);
+}
+.all-btn-numbers button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255, 252, 55);
+}
+.btn-extra{
+    display: flex;
+}
+.btn-extra button{
+    background-color: rgb(240, 97, 19);
+    color: white;
+}
+.btn-extra button{
+    cursor: pointer;
+    
+}
+.btn-clear-equals{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}.btn-clear-equals button{
+    width: 120px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 5px;
+    border: none;
+}
+#clear{
+    color: rgb(255, 0, 225);
+    background-color: black;
+    border-radius: 5px;
+}
+
+#equal{
+    color: blue;
+    background-color: black;
+    border-radius: 5px;
+}
+#equal:hover,
+#clear:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255, 252, 55);
+}
+
+input{
+    width: 80%;
+    margin: 10px,0px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid rgb(42, 82, 214);
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid gray;
+}
